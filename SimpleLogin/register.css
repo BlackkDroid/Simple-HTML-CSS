@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;padding: 0;
+}
+html,body
+{
+    width: 100%;
+
+}
+/* Login Register Starts */
+main{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+}
+.start .main
+{
+    text-align: center;
+    padding-top: 50px;
+    /* border: 1px groove grey; */
+    padding-bottom: 50px;
+}
+.start .main .login{
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+}
+.start .main .login button
+{
+    width: 200px;
+   border: 1px groove rgba(128, 128, 128, 0.268);
+    height: 30px;
+    margin-left: 40px;
+    transition: 1s;
+    border-radius: 7px;
+}
+.start .main .login button:hover{
+    background-color: rgba(33, 230, 230, 0.842);
+
+}
+
+.start .main .login button a
+{
+    text-decoration: none;
+    display: grid;
+    color: blue;
+    transition: all;
+
+}
+
+
+/* Login Register Ends */
+.start .main .icons ul li {
+    margin-left: 20px;
+    margin-top: 20px;
+display:  inline-flex;
+margin-bottom: 20px;
+}
+.start .main .icons ul li i{
+
+    color: blue;
+}
+.start .main .field{
+
+margin-top: 10px;
+    /* border: 1px solid red; */
+    height: 40px;
+    margin-bottom: 20px;
+   
+
+}
+.start .main .field input{
+    margin-top: 10px;
+    height: 30px;
+    width: 420px;
+    border-radius: 4px;
+    border: 1px solid grey;
+   font-size: 17px;
+}
+
+/*  Remember and Password */
+.start .main .box{
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    
+}
+.start .main #pass
+{
+   text-decoration: none;
+    color: blue;
+    transition: all;
+}
+.start .main #pass:hover
+{
+    color: brown;
+}
+
+/*  Remember and Password */
+
+/* SIGN In Button */
+.start .main .sign
+{
+    /* border: 1px solid red; */
+    margin: 20px;
+  
+}
+.start .main .sign button
+{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(16, 16, 231, 0.674);
+
+    width: 420px;
+    transition: background-color 1s;
+}
+.start .main .sign button:hover{
+    background-color: blue;
+}
+
+.start .main .sign button a {
+    text-decoration: none;
+    color: white;
+    transition: all;
+   
+}
+
+/* SIGN In Button */
+
+
+.start .main .end p a {
+    text-decoration: none;
+    color: blue;
+}

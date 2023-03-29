@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+main
+{
+    /* border: 1px solid gray; */
+    margin: 50px;
+    /* text-align: center; */
+    
+    
+}
+main .sect{
+    width: auto;
+    /* background-color: aqua; */
+    border: 1px groove rgba(166, 164, 164, 0.323);
+  
+    
+}
+main div
+{
+    
+   text-align: center;
+}
+main .pass a{
+    text-decoration: none;
+    margin-left: 40px; 
+    color: blue;
+    
+}
+main .detail{
+    margin-top: 25px;
+}
+main .sign button 
+{
+    background-color: rgb(72, 72, 226);
+    border: 1px blue;
+    width: 300px;
+    height: 30px;
+    
+
+}
+main .sign button a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+main .member p a{
+    text-decoration: none;
+    color: blue;
+}
+main .contact ul li
+{
+    display: inline-flex;
+   
+}
+main .contact ul li a i{
+    color: blue;
+    margin-left: 20px;
+}
+main .contact{
+    margin-bottom: 25px;
+}

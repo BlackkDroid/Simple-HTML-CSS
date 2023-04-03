@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(51, 53, 69);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.navbar input {
+    margin-left: 20px;
+    width: 480px;
+    outline: none;
+    /* the border inside search */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    margin-right: 15px;
+    transition: all 1s;
+
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar button {
+    border: none;
+    background-color: rgb(248, 68, 100);
+    font-size: 12px;
+
+    color: white;
+    padding: 6px 18px;
+    border-radius: 4px;
+}
+
+
+
+.slide marquee {
+    padding: 8px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 45px;
+}
+
+.title a {
+    text-decoration: none;
+    color: rgb(220, 53, 88);
+}
+
+.movies {
+    display: flex;
+    padding: 0px 45px;
+    justify-content: space-evenly;
+}
+
+.movie img {
+    height: 300px;
+    width: 176px;
+    border-radius: 8px;
+
+}
+
+.movie img:hover {
+    /* transform: translateY(-10px); */
+    transform: scale(1.2);
+    /*increases itself 1.2 times of size*/
+    /* transform: rotate(360deg);  rotates image 360 degree once */
+    transition: all 1s;
+}
+
+/* Second Nav bar Starts*/
+.second-nav {
+
+    background-color: rgb(31, 37, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: initial;
+    height: 40px;
+
+}
+
+.stream ul {
+
+    display: flex;
+   
+    align-items: center;
+    padding-bottom: 5px;
+   
+
+}
+
+ .stream ul li a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgb(204, 204, 204);
+    font-family:  sans-serif;
+    font-size: 14px;
+    transition: all 1s;
+    
+}
+.stream ul li a:hover{
+    color: white;
+    
+}
+
+
+
+.gift ul {
+    display: flex;
+   
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+
+.gift ul li a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    padding-left: 20px;
+    font-family:  sans-serif;
+    font-size: 12px;
+    transition: all 1s;
+    
+   
+}
+.gift ul li a:hover{
+    color: white;
+    
+}
+
+
+/* Second Nav Bar Ends */

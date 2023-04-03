@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, black,hotpink);
+    /* to right make color to left and right if not mentioned top and bottom*/
+}
+.login_form h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.login_form{
+    
+    text-align: center;
+}
+
+
+.login_form  input{
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+    height: 35px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 0px 10px;
+    
+ 
+}
+.login_form button{
+border: none;
+border-color: white;
+padding: 8px 20px;
+border-radius: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login_page{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.emoji img{
+    font-size: 100px;
+    display: none;
+}

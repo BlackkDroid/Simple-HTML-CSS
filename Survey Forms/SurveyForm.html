@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./SurveyForm.css">
+</head>
+<body>
+    <div class="container">
+       
+        <h1>Student Detail Form :</h1>
+        <form action="submit" method="post">
+        <div class="form-div" id="form-entry">
+            <label for="stud-name">Student Name :</label>
+            <input type="text" name="std-detail" id="stud-name" placeholder="Enter Your Name" required>
+
+        </div>
+        <div class="form-div" id="form-entry">
+            <label for="stud-email">Student Email Id :</label>
+            <input type="email" name="std-detail" id="stud-email" placeholder="Enter Your Email" required>
+
+        </div>
+        <div class="form-div" id="form-entry">
+            <label for="stud-phone">Mobile Number :</label>
+            <input type="number" name="std-detail" id="stud-phone" placeholder="Enter Your Mobile Number" minlength="10" maxlength="10" required>
+
+        </div>
+        <div class="form-div" id="form-entry">
+            <label for="stud-usn">University Seat Number :</label>
+            <input type="text" name="std-detail" id="stud-usn" placeholder="Enter Your USN" minlength="10" maxlength="10" required>
+
+        </div>
+        <div class="form-div">
+            <label for="clg">Enter College Name :</label>
+            <input type="text" name="std-detail" id="clg" placeholder="Enter College name">
+        </div>
+        <div class="form-div">
+            <label for="clg-sem">Enter College Name :</label>
+            <select name="semester" id="clg-sem">
+                <option value="">Select Sem</option>
+                <option value="1">1st Sem</option>
+                <option value="2">2nd Sem</option>
+                <option value="3">3rd Sem</option>
+                <option value="4">4th Sem</option>
+                <option value="5">5th Sem</option>
+                <option value="6">6th Sem</option>
+                <option value="7">7th Sem</option>
+                <option value="8">8th Sem</option>
+            </select>
+        </div>
+
+
+        <div class="form-div" id="form-entry">
+            <p> Select your Branch of study :</p>
+       <select name="std-branch" id="branch">
+        <option value="">Select Branch</option>
+        <option value="civil">Civil Engineering</option>
+        <option value="mech">Mechanical Engineering</option>
+        <option value="cse">Computer Science</option>
+        <option value="elec">Electronics and Communication</option>
+        <option value="other">Other</option>
+       </select>
+            
+        </div>
+
+        <div class="form-div">
+            <label for="backlog">Enter thenumber of Backlogs, If there is any :<input type="number" min="0" max="8" id="backlog"></label>
+            
+        </div>
+
+        <div class="form-div">
+            <label for="feedback">Give us your feedback :</label>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Feedback here"></textarea>
+        </div>
+
+        <div class="form-div">
+            <button id="submit" class="submit-btn" name="submit">Submit</button>
+        </div>
+
+    </form>
+
+    </div>
+    
+</body>
+</html>

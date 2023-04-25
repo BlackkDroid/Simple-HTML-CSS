@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table| Oracle SQL</title>
+    <style>
+body{
+    font-family: serif;
+    text-transform: uppercase;
+    background-color: #252525;
+    align-items: center;
+    margin: 8%;
+    
+}
+.table-view{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto 0;
+    text-align: center;
+   
+}
+h1{
+    color: rgba(0, 255, 195, 0.915);
+}
+table{
+    /* border: 2px solid black; */
+    width: 100%;
+    text-align: center;
+}
+.table-view table tr{
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+.table-view table td{
+    border-radius: 10px;
+padding: 5px;
+}
+th{
+    padding: 15px;
+    /* width: 25px; */
+    font-size: 16px;
+    background-color: rgb(17, 255, 0);
+    border-radius: 10px;
+}
+table tr:nth-child(even){
+    background-color: rgb(0, 240, 255);
+    color: #000000;
+    
+}
+table tr:nth-child(odd){
+    background-color: #FFFF00;
+    color: rgb(0,0,0);
+}
+
+table td:nth-child(even):hover{
+    background-color: rgb(115,85,255);
+    color: #F2F2FF;
+    font-weight: bolder;
+}
+table td:nth-child(odd):hover{
+    background-color: rgb(117,255,117);
+    color: #000000;
+    font-weight: bolder;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="table-view">
+        <h1> emp table from oracle sql database</h1>
+    <table>
+        <tr>
+            <th>emp no</th>
+            <th>ename</th>
+            <th>job</th>
+            <th>mgr</th>
+            <th>hiredate</th>
+            <th>sal</th>
+            <th>comm</th>
+            <th>deptno</th>
+        </tr>
+        <tr>
+            <td>7369 </td>
+            <td> smith</td>
+            <td>clerk</td>
+            <td> 7902</td>
+            <td> 17-dec-80 </td>
+            <td> 800</td>
+            <td></td>
+            <td> 20</td>
+        </tr>
+        <tr>
+            <td>7499 </td>
+            <td>allen</td>
+            <td>salesman</td>
+            <td>7698</td>
+            <td>20-feb-81</td>
+            <td>1600</td>
+            <td>300</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>7521</td>
+            <td>ward</td>
+            <td>salesman</td>
+            <td>7698</td>
+            <td>22-dec-80</td>
+            <td>1250</td>
+            <td>500</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>7566</td>
+            <td>jones</td>
+            <td>manager</td>
+            <td>7839</td>
+            <td>02-apr-81 </td>
+            <td>2975</td>
+            <td></td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>7654</td>
+            <td>martin</td>
+            <td>salesman</td>
+            <td>7698</td>
+            <td>28-sep-81</td>
+            <td>1250</td>
+            <td>1400</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>7698</td>
+            <td>blake</td>
+            <td>manager</td>
+            <td>7839</td>
+            <td>01-may-81</td>
+            <td>2850</td>
+            <td></td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>7782</td>
+            <td>clark</td>
+            <td>manager</td>
+            <td>7839</td>
+            <td>09-jun-81</td>
+            <td>2450</td>
+            <td></td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>7788</td>
+            <td>scott</td>
+            <td>analyst</td>
+            <td>7566</td>
+            <td>19-apr-87</td>
+            <td>3000</td>
+            <td></td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>7839</td>
+            <td>king</td>
+            <td>president</td>
+            <td></td>
+            <td>17-nov-81</td>
+            <td>5000</td>
+            <td></td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>7844</td>
+            <td>turner</td>
+            <td>salesman</td>
+            <td>7698</td>
+            <td>08-sep-81</td>
+            <td>1500</td>
+            <td>0</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>7876</td>
+            <td>adams</td>
+            <td>clerk</td>
+            <td>7788</td>
+            <td>23-may-87</td>
+            <td>1100</td>
+            <td></td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>7900</td>
+            <td>james</td>
+            <td>clerk</td>
+            <td>7698</td>
+            <td>03-dec-81</td>
+            <td>950</td>
+            <td></td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>7902</td>
+            <td>ford</td>
+            <td>analyst</td>
+            <td>7566</td>
+            <td>03-dec-81</td>
+            <td>3000</td>
+            <td></td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>7934</td>
+            <td>miller</td>
+            <td>clerk</td>
+            <td>7782</td>
+            <td>23-jan-82</td>
+            <td>1300</td>
+            <td></td>
+            <td>10</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
